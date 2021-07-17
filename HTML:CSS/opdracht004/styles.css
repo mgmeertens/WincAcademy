@@ -1,0 +1,39 @@
+body { 
+    color: rgb(65, 60, 60);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.black-border {
+    border: 2px solid black;
+}
+
+
+.coupon {
+	width: 250px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed rgb(22, 142, 163); }
+
+
+#pink-background {
+    background-color: pink;
+}
+
+#beautifull-background{
+    background-color: cyan;
+}
+
+.font {
+    font-family: fantasy;
+
+}
+
+.box {
+    font-family: fantasy;
+    border: 2px solid purple;
+    background-color: cornflowerblue;
+
+}

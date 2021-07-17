@@ -1,0 +1,105 @@
+body { 
+    color: rgb(65, 60, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.coupon {
+	width: 600px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed rgb(22, 142, 163); 
+    background-color: salmon;
+}
+
+.h2font {
+    font-family:'Courier New', Courier, monospace
+}
+
+#grey-background {
+    background-color: grey;
+    
+}
+
+.block {
+        border:2px solid goldenrod
+}
+
+.box-1 {
+    background-color: gray;
+    color: white;
+    border: 5px yellowgreen solid;
+
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.box-2 {
+    color: grey;
+    border: 1px dotted black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: 10px;
+}
+
+
+
+.box-1 h2 {
+    font-family: fantasy;
+    font-weight: 200;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: uppercase
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+footer {
+    color: grey;
+    background-color: aquamarine;
+    border: 1px dotted black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+/*
+@media smartphone and (max-width: 320px){
+    footer{ background-color: red;
+    }
+}
+
+@media (min-width: 1024px){
+    footer {background-color: burlywood}
+}
+
+@media (max-width: 1042px){
+    body {background-color: bisque;
+          color: rgb(22, 142, 163);
+          font-size: 16px;
+          line-height: 0,3px
+}
+

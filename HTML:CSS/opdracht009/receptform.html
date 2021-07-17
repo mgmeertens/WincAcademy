@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recept formulier</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+<body>
+
+    <header> <h2> Stuur je favoeriete recept op</h2></header>
+
+    <form name="receptform" method="post" data-netlify="true">
+    
+<hr>
+        <div>
+            <label>Naam: <input type="text" name="name" required /></label>
+        </div>
+
+        <div>
+            <label>Email: <input type="email" name="email" /></label>
+        </div>
+
+        <div>
+            <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /> </label>
+        </div>
+
+        <div>
+            <label>Leeftijd: <input type="number" name="Leeftijd" /></label>
+        </div>
+
+        <div>
+        <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label>
+        </div>
+        
+        <div>
+            <label>Man <input type="radio" name="radio" /> </label>
+        </div>
+
+        <div>
+            <label>Vrouw <input type="radio" name="radio" /> </label>
+        </div>
+       
+        <div>
+            <label>Favoriete keuken:</label>
+        </div>
+
+        <div>
+            <label>Italiaans<input type="checkbox" name="italiaans" /></label>
+        </div>
+
+        <div>
+            <label>Spaans<input type="checkbox" name="spaans" /></label>
+        </div>
+
+        <div>
+            <label>Arabisch<input type="checkbox" name="arabisch" /></label>
+        </div>
+
+        <div>
+            <label> Favoriete kleur schort<input type="color" name="kleur" /></label>
+        </div>
+
+        <div>
+            <label>Biografie: <textarea name="message"></textarea></label>
+        </div>
+
+        <div>
+            <label>Favoriete recept</label>
+        </div>
+
+        <div>
+            <input type="file" name="recept">
+        </div>
+
+        <div>
+            <label>Website <input type="url" name="url"></label>
+        </div>
+
+        <input type="submit"/>
+        <input type="reset"/>
+      
+
+    </form>
+
+    <a href="about.html">Home</a>
+
+</body>
