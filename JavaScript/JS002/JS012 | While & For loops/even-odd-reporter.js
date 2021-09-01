@@ -1,9 +1,8 @@
 
-
-for (number = 1; number <= 20; number++) {
-    if (number % 2 == 0) {
-        console.log ("is even");
-    } esle 
-        console.log ("is oneven");
-    }
-
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i + " is even");
+  } else {
+    console.log(i + " is oneven");
+  }
+}
